@@ -34,7 +34,7 @@ clear: both;
       font-style: italic;
       font-size: 30px;
       padding-top: 10px;
-      margin: 50px;
+      margin: 20px;
       float:left;
       white-space: nowrap;
   }
@@ -80,4 +80,10 @@ clear: both;
 
   .log:hover {
     text-decoration: none;
+  }
+
+  .about {
+   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Aniqua", Bakersville, "Bookmam Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+
+     
   }
