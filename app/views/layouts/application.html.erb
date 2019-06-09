@@ -16,6 +16,8 @@
 
       <div class="col-3">
 
+        <%= link_to root_path, class: 'logo' do %>
+
         <div class="circle">
           <br />
 
@@ -30,12 +32,17 @@
           wheels and cogs.
 
       </div>
+
+      <% end %>
+
+
       <div class="col-4 slogan">
         Splurting out unsolicted advice about entrepreneurship since 2016
       </div>
+
       <div class="col-5 links">
 
-        <%= link_to 'contribute', '#' %>
+        <%= link_to 'contribute', new_quote_path %>
         <%= link_to 'About', '#' %>
 
       </div>
@@ -58,8 +65,8 @@
         <div class="col-6">
 
 
-          <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
-          
+          <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
+
 
         </div>
 
